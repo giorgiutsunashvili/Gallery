@@ -1,2 +1,2 @@
-# galery
+# gallery
 create your own gallery
