@@ -1,0 +1,14 @@
+<article class="col-md-9 m-auto">
+    <h1>Enter image information</h1>
+    <div class="form-group">
+        <label for="">Insert image</label>
+        <input (input)="imageInpChange($event)" type="file" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="">Enter image title</label>
+        <input [(ngModel)]="image.title" type="text" placeholder="Enter here" class="form-control">
+    </div>
+    <div class="form-group">
+        <button (click)="onImageSaveb()" class="btn btn-primary col-md-12 d-block">Save</button>
+    </div>
+</article>

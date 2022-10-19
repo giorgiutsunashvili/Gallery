@@ -1,0 +1,6 @@
+<section class="col-md-10 m-auto">
+    <app-gallery-image-filler 
+    (onNewImageAddedEmitter)="onNewImageAddedSubs($event)"
+    ></app-gallery-image-filler>
+    <app-gallery-cards-area [images]="imagesList"></app-gallery-cards-area>
+</section>
